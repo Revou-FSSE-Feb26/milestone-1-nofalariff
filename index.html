@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noval Arif Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="logo">Noval Arif Rahman</div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-text">
+                <h1>
+                    Building digital solutions
+                    <br>
+                    with logic & creativity
+                </h1>
+
+                <p>
+                    I’m Noval, a Warehousing Professional transitioning into
+                    Web Development and Software Engineering.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <figure class="hero-image">
+                <img src="assets/FotoPorto.png" alt="Noval Arif Portrait">
+            </figure>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="aboutMe" id="about">
+
+            <div class="about-wrapper">
+
+                <div class="about-header">
+                    <h2>About Me</h2>
+                    <p>
+                        A brief overview of my education, work experience, skills, and interests
+                    </p>
+                </div>
+
+                <div class="about-container">
+
+                    <!-- LEFT -->
+                    <figure class="about-image">
+                        <img src="assets/FotoPorto.png" alt="Photo of Noval Arif">
+                    </figure>
+
+                    <!-- RIGHT -->
+                    <article class="about-content">
+
+                        <header class="about-intro">
+                            <h3>Noval Arif Rahman</h3>
+                            <p class="role">
+                                Warehouse & Logistics Professional | Aspiring Web Developer
+                            </p>
+                        </header>
+
+                        <p>
+                            I am a logistics professional with several years of experience in the
+                            air cargo industry, particularly in export and import handling.
+                            Currently, I am also pursuing a Bachelor's degree in Informatics
+                            Engineering while expanding my knowledge in web development and
+                            software engineering.
+                        </p>
+
+                        <p>
+                            I completed my high school education in 2020 and began my academic
+                            journey in Informatics Engineering in 2022. Alongside my studies,
+                            I continue to develop technical skills in programming and modern
+                            web technologies.
+                        </p>
+
+                        <div class="about-split">
+
+                            <div class="about-block">
+                                <h4>Education</h4>
+                                <ul>
+                                    <li>High School Graduate (2017 – 2020)</li>
+                                    <li>Bachelor of Informatics Engineering (2022 – Present)</li>
+                                </ul>
+                            </div>
+
+                            <div class="about-block">
+                                <h4>Work Experience</h4>
+                                <ul>
+                                    <li>Staff Manifest (2021 – 2023)</li>
+                                    <li>Staff Acceptance (2023 – 2025)</li>
+                                    <li>Staff PDE – Document Handling (2025 – Present)</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="about-interest">
+                            <h4>Interests</h4>
+                            <p>
+                                I am passionate about software engineering, web development,
+                                and technology-driven problem solving. I enjoy learning how
+                                digital systems work and building practical web solutions.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+
+            <header class="projects-header">
+                <h2>Projects</h2>
+                <p>
+                    A showcase of my work, including descriptions, technologies used, and links to live demos or
+                    repositories
+                </p>
+            </header>
+
+            <article>
+                <div class="card-container">
+                    <div class="card">
+                        <figure class="card-image">
+                            <img src="assets/FotoPorto.png" alt="Project 1: Personal Portfolio Website">
+                        </figure>
+                        <div class="card-content">
+                            <h3>Project 1: Personal Portfolio Website</h3>
+                            <p>
+                                A responsive personal portfolio website built using HTML, and CSS. It
+                                features sections for about me, projects, and contact information.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card-image">
+                            <img src="assets/Ana.jpg" alt="Project 1: Personal Portfolio Website">
+                        </figure>
+                        <div class="card-content">
+                            <h3>Project 2: All Nippon Airways Warehouse Document</h3>
+                            <p>
+                                I managed customs documentation for export and import cargo at the All Nippon Airways
+                                Warehouse. My work focused on
+                                ensuring accurate data entry and proper document handling, resulting in a significant
+                                reduction in customs documentation
+                                errors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button class="btn-primary" type="submit">Send Message</button>
+                    <button class="btn-primary" type="reset">Reset Form</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
