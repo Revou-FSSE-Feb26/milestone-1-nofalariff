@@ -1,47 +1,79 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2AGu9A8s)
+# Personal Portfolio Website
 
-# Personal Portofolio Website
-
-Website ini adalah website portofolio pribadi saya yang dibuat untuk menampilkan beberpa tentang deskripsi mengenai diri saya, dan pengalaman kerja saya
+This is my personal portfolio website, created to showcase my profile, work experience, and projects as I transition into Web Development and Software Engineering.
 
 ---
 
-## Teknologi yang Digunakan
+## 🚀 Live Demo
+
+You can access the website here:  
+👉 https://your-username.github.io/your-repository-name/
+
+---
+
+## 📌 Features
+
+- Responsive Hero Section with Call-To-Action (CTA)
+- Navigation Bar with internal links (smooth section navigation)
+- About Me section with education & work experience
+- Projects section with project cards
+- Contact form with:
+  - Input fields (name, email, message)
+  - Submit button
+  - Reset button
+- Semantic HTML structure
+- Clean and simple CSS layout
+- Image integration using `<figure>` and `<img>`
+- Organized content using Flexbox (CSS layout)
+
+---
+
+## 🛠️ Technologies Used
 
 - HTML5 (Semantic HTML)
-- CSS (menggunakan CSS untuk styling website saya dan layouting sederhana)
+- CSS3 (Layouting and Styling)
 
-## Struktur Website
+---
 
-Dalam website portofolio saya ada beberapa Section yang saya gunakan. diantaranya adalah :
+## 📂 Website Structure
 
-## Home Section
+### 🏠 Home Section
 
-Menampilkan perkenalan singkat diri saya dan beberapa Navigasi dari website, seperti.
+Displays a short introduction and main navigation:
 
-- Home
-- About Me
-- Projects
-- Contact
+- Hero headline
+- Short description
+- Call-to-action buttons (View Projects & Contact)
 
-## About Me Section
+### 👤 About Me Section
 
-memberikan Deskripsi tentang diri saya dan pengalaman Education serta Pekerjaan saya
+Provides detailed information about:
 
-## Projects
+- Personal background
+- Education history
+- Work experience
+- Interests
 
-Memberikan informasi terkait apa saja pengalaman Projects yang sudah saya lakukan
+### 💼 Projects Section
 
-## Contact
+Showcases my work through project cards, including:
 
-Berisi form yang dapat digunakan pengunjung untuk menghubungi saya
+- Project title
+- Description
+- Image preview
 
-## Tujuan Project
+### 📬 Contact Section
 
-Tujuan Project ini dibuat adalah untuk melatih saya dalam belajar Web Development, diawali dengan menggunakan HTML Semantic Sederhana,
-dan juga melatih dalam styling website menggunakan CSS layout sederhana
+Includes a contact form where visitors can:
 
-## Ucapan Terima Kasih
+- Enter their name, email, and message
+- Submit or reset the form
 
-- Terima Kasih kepada instructor saya yaitu kak Erlanda yang sudah mengajari saya dan teman teman mengenai materi Web Development Dasar mulai dari Markdown, Git, dan HTML Semantic
-- Juga Terima Kasih Kepada kakak-kakak SM dan TL yang sudah meng-guide saya dalam proses belajar.
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+   ```
