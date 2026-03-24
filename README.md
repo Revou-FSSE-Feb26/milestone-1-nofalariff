@@ -1,13 +1,14 @@
 # Personal Portfolio Website
 
 This is my personal portfolio website, created to showcase my profile, work experience, and projects as I transition into Web Development and Software Engineering.
+![Hero Image](assets/Hero.png)
 
 ---
 
 ## 🚀 Live Demo
 
 You can access the website here:  
-👉 https://your-username.github.io/your-repository-name/
+👉 https://revou-fsse-feb26.github.io/milestone-1-nofalariff/
 
 ---
 
@@ -75,5 +76,5 @@ Includes a contact form where visitors can:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/Revou-FSSE-Feb26/milestone-1-nofalariff.git
    ```
