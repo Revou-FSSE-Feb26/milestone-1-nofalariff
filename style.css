@@ -41,7 +41,7 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 5px;
+  gap: 10px;
   list-style: none;
 }
 
@@ -275,6 +275,13 @@ body {
   margin: 50px;
 }
 
+.card:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 .card-content {
   padding: 20px;
 }
@@ -328,10 +335,33 @@ textarea {
 
 /* ========== TABLET (<= 768px) ========== */
 @media (max-width: 768px) {
-  .site-header {
-    font-size: 18px;
-    padding: 20px 30px;
-    gap: 2px;
+  .menu-toggle {
+    display: block;
+  }
+
+  .logo {
+    font-family: "Oswald", sans-serif;
+  }
+  .navbar {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background-color: rgb(201, 194, 193);
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  /* ketika aktif */
+  .navbar.active {
+    display: flex;
   }
 
   .hero {
