@@ -78,3 +78,21 @@ Includes a contact form where visitors can:
    ```bash
    git clone https://github.com/Revou-FSSE-Feb26/milestone-1-nofalariff.git
    ```
+
+---
+
+## 📈 Feature Improvements for Assignment 2
+
+- Add Responsive CSS media queries for Tablet and Mobile
+- JavaScript Interactivity on Navigation Hamburger menu
+- Add Transition in Card Projects
+
+---
+
+## Display on Mobile
+
+![Mobile Display](assets/mobiledisplay.png)
+
+## Display on Tablet
+
+![Tablet Display](assets/tablet.png)
