@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   background-color: #f8f8f8;
   color: #111;
 }
@@ -30,6 +30,7 @@ body {
   padding: 20px 60px;
   background-color: rgb(201, 194, 193);
   height: 80px;
+  z-index: 1000;
 }
 
 .navbar {
@@ -59,6 +60,14 @@ body {
   transition: 0.3s;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 /* HERO SECTION */
 .hero {
   display: flex;
@@ -79,6 +88,7 @@ body {
 }
 
 .hero-text p {
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   margin-bottom: 30px;
   color: #555;
@@ -143,6 +153,7 @@ body {
 /* HEADER */
 
 .about-header {
+  text-align: center;
   margin-bottom: 60px;
 }
 
@@ -313,4 +324,105 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
+}
+
+/* ========== TABLET (<= 768px) ========== */
+@media (max-width: 768px) {
+  .site-header {
+    font-size: 18px;
+    padding: 20px 30px;
+    gap: 2px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image img {
+    max-width: 300px;
+  }
+
+  .about-header {
+    text-align: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+/* ========== MOBILE (<= 480px) ========== */
+@media (max-width: 480px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .logo {
+    font-family: "Oswald", sans-serif;
+  }
+  .navbar {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background-color: rgb(201, 194, 193);
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  /* ketika aktif */
+  .navbar.active {
+    display: flex;
+  }
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-image img {
+    max-width: 250px;
+  }
 }
