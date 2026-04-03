@@ -85,6 +85,9 @@ body {
   font-size: 48px;
   line-height: 1.2;
   margin-bottom: 20px;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-text p {
